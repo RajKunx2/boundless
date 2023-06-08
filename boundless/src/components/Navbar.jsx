@@ -14,7 +14,7 @@ function NavBar() {
                         <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
                             {/* LOGO */}
                             <Link href="/">
-                                <Image src={Logo} width={90} height={66.8} alt='s' className='mx-3'/>
+                                <Image src={Logo} width={90} height={66.8} alt='' className='mx-3' />
                             </Link>
                             {/* HAMBURGER BUTTON FOR MOBILE */}
                             <div className="lg:hidden">
@@ -40,22 +40,22 @@ function NavBar() {
                                 </li>
                                 <li className="text-base text-black py-2 px-6 text-center  border-b-2 lg:border-b-0 font-semibold hover:cursor-pointer  hover:bg-[#FF7F00]  border-[#FF7F00]  lg:hover:text-[#FF7F00] lg:hover:bg-transparent mx-2">
                                     <Link href="#ourstory" onClick={() => setNavbar(!navbar)}>
-                                        Our Story
+                                        Contact Us
                                     </Link>
                                 </li>
-                                <li className="ext-base text-black py-2 px-6 text-center  border-b-2 lg:border-b-0 font-semibold  hover:cursor-pointer hover:bg-[#FF7F00]  border-[#FF7F00]  lg:hover:text-[#FF7F00] lg:hover:bg-transparent mx-2">
+                                {/* <li className="ext-base text-black py-2 px-6 text-center  border-b-2 lg:border-b-0 font-semibold  hover:cursor-pointer hover:bg-[#FF7F00]  border-[#FF7F00]  lg:hover:text-[#FF7F00] lg:hover:bg-transparent mx-2">
                                     <Link href="#whatwedo" onClick={() => setNavbar(!navbar)}>
-                                        What We Do
+                                     asd
                                     </Link>
                                 </li>
                                 <li className="text-base text-black py-2 px-6 text-center  border-b-2 lg:border-b-0 font-semibold hover:cursor-pointer  hover:bg-[#FF7F00]  border-[#FF7F00]  lg:hover:text-[#FF7F00] lg:hover:bg-transparent mx-2">
                                     <Link href="#blog" onClick={() => setNavbar(!navbar)}>
                                         Blog
                                     </Link>
-                                </li>
-                                <li className="text-base lg:text-white text-[#FF7F00] py-3 px-6 text-center lg:bg-[#FF7F00] font-semibold hover:cursor-pointer lg:rounded-lg border-b-2 lg:border-b-0 border-[#FF7F00] lg:border-none hover:text-white  hover:bg-[#de7811] h-auto flex justify-center mx-2 align-middle ">
+                                </li> */}
+                                <li className="text-base text-white  py-3 px-6 text-center bg-[#FF7F00] font-semibold hover:cursor-pointer lg:rounded-lg border-b-2 lg:border-b-0 lg:border-none hover:text-white  hover:bg-[#de7811] h-auto flex justify-center mx-2 align-middle ">
                                     <Link href="#getinvolved" onClick={() => setNavbar(!navbar)}>
-                                        Get Involved
+                                        Advertise
                                     </Link>
                                 </li>
                             </ul>
