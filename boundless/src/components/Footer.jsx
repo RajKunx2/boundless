@@ -6,10 +6,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap text-left lg:text-left">
           <div className="w-full lg:w-6/12 px-4">
-            <h1 className='text-4xl md:text-6xl mb-6 text-primary text-orange-400 font-PTSans'>Boundless</h1>
+            <h1 className='text-4xl md:text-6xl mb-6 text-primary text-orange-500 font-PTSans font-bold'>Boundless</h1>
             <h5 className="text-lg mt-0 mb-2 text-white">
-              Sweeten your senses, indulge in mastery!
-              Join us for a delectable pastry showdown!
+              Phone No. 8178462485  |  Email :  boundelessmyh@gmail.com
             </h5>
           </div>
           <div className="w-full lg:w-6/12 px-4">
@@ -18,16 +17,16 @@ const Footer = () => {
                 <span className="block uppercase text-white text-lg mb-2 font-bold">Useful Links</span>
                 <ul className="list-unstyled">
                   <li>
-                    <a className="text-white hover:text-white font-semibold block pb-2 text-sm">About Us</a>
+                    <a href='https://boundless-po1m.vercel.app/' className="text-white hover:text-white font-semibold block pb-2 text-sm">Home</a>
                   </li>
                   <li>
-                    <a className="text-white hover:text-white font-semibold block pb-2 text-sm">Participants</a>
+                    <a href="https://drive.google.com/file/d/1bqpR2Obe3Jl1HlTGuw-Xp-i0DDYL3V_r/view?usp=sharing" className="text-white hover:text-white font-semibold block pb-2 text-sm">Our Story</a>
                   </li>
                   <li>
-                    <a className="text-white hover:text-white font-semibold block pb-2 text-sm">Gallery</a>
+                    <a href="https://forms.gle/evFTcXZibxo3yY8x9" className="text-white hover:text-white font-semibold block pb-2 text-sm">Contact Us</a>
                   </li>
                   <li>
-                    <a className="text-white hover:text-white font-semibold block pb-2 text-sm" href="/JPIC Guidelines & Rules.pdf">Rules And Regulations</a>
+                    <a href="https://hm-boundless.vercel.app" className="text-white hover:text-white font-semibold block pb-2 text-sm">Advertise</a>
                   </li>
                 </ul>
               </div>
@@ -44,7 +43,7 @@ const Footer = () => {
                     <a className="text-white hover:text-white font-semibold block pb-2 text-sm">Privacy Policy</a>
                   </li>
                   <li>
-                    <a className="text-white hover:text-white font-semibold block pb-2 text-sm">Contact Us</a>
+                    <a className="text-white hover:text-white font-semibold block pb-2 text-sm">Others</a>
                   </li>
                 </ul>
               </div>
@@ -55,7 +54,7 @@ const Footer = () => {
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <div className="text-sm text-white font-semibold py-1">
-              Copyright © <span id="get-current-year">Junior Pastry Indian Cup 2023</span>
+              Copyright © <span id="get-current-year">Boundless</span>
 
             </div>
           </div>

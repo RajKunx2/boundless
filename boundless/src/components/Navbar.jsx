@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { Twirl as Hamburger } from 'hamburger-react'
 import Image from "next/image"
 import Logo from "../assets/logo.png"
-import Contact from "../components/Contact"
 function NavBar() {
     const [navbar, setNavbar] = useState(false);
     return (
@@ -35,17 +34,17 @@ function NavBar() {
                         >
                             <ul className="h-screen lg:h-auto items-center justify-center lg:flex ">
                                 <li className="text-base text-black py-2 lg:px-6 text-center border-b-2 lg:border-b-0 font-semibold hover:cursor-pointer  hover:bg-[#FF7F00]  border-[#FF7F00]  lg:hover:text-[#FF7F00] lg:hover:bg-transparent mx-2">
-                                    <a href="https://www.google.com/" onClick={() => setNavbar(!navbar)}>
+                                    <a href="https://boundless-po1m.vercel.app/" onClick={() => setNavbar(!navbar)}>
                                         Home
                                     </a>
                                 </li>
                                 <li className="text-base text-black py-2 px-6 text-center  border-b-2 lg:border-b-0 font-semibold hover:cursor-pointer  hover:bg-[#FF7F00]  border-[#FF7F00]  lg:hover:text-[#FF7F00] lg:hover:bg-transparent mx-2">
-                                    <a href="./Contact.jsx" onClick={() => setNavbar(!navbar)}>
+                                    <a href="https://drive.google.com/file/d/1bqpR2Obe3Jl1HlTGuw-Xp-i0DDYL3V_r/view?usp=sharing" onClick={() => setNavbar(!navbar)}>
                                         Our Story
                                     </a>
                                 </li>
                                 <li className="text-base text-black py-2 px-6 text-center  border-b-2 lg:border-b-0 font-semibold hover:cursor-pointer  hover:bg-[#FF7F00]  border-[#FF7F00]  lg:hover:text-[#FF7F00] lg:hover:bg-transparent mx-2">
-                                    <a href="/" onClick={() => setNavbar(!navbar)}>
+                                    <a href="https://forms.gle/evFTcXZibxo3yY8x9" onClick={() => setNavbar(!navbar)}>
                                         Contact Us
                                     </a>
                                 </li>
@@ -60,7 +59,7 @@ function NavBar() {
                                     </Link>
                                 </li> */}
                                 <li className="text-base text-white  py-3 px-6 text-center bg-[#FF7F00] font-semibold hover:cursor-pointer lg:rounded-lg border-b-2 lg:border-b-0 lg:border-none hover:text-white  hover:bg-[#de7811] h-auto flex justify-center mx-2 align-middle ">
-                                    <a href="/" onClick={() => setNavbar(!navbar)}>
+                                    <a href="https://hm-boundless.vercel.app" onClick={() => setNavbar(!navbar)}>
                                         Advertise
                                     </a>
                                 </li>
