@@ -11,7 +11,7 @@ export default function Features() {
 
             <div className='flex flex-col align-middle justify-center items-center mx-4 md:my-8'>
                 <div className='flex flex-col lg:flex-row py-4 h-auto align-middle pt-6 w-fit'>
-                    <div className='w-full px-2 text-2xl mx-4 py-auto justify-center align-middle font-NotoSerif font-semibold text-orange-500'>
+                    <div className='px-2 text-xl py-auto justify-center align-middle font-NotoSerif font-semibold text-slate-800'>
                         <div className=''>Out of the 355 millions mensurating women only 46.2 million have access to sanitary napkins in India, that is only 12% of the total mensurating women.</div>
                         <div className='flex justify-end my-3'><div>Source: Ministry Of Health</div></div>
                     </div>

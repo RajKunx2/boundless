@@ -2,8 +2,6 @@
 import React from 'react'
 import Helppic from "../assets/help.jpg"
 import Image from "next/image"
-import Arrow from "../assets/arrow.png"
-import { motion } from "framer-motion"
 
 export default function Help() {
     return (
@@ -18,17 +16,6 @@ export default function Help() {
                     </div>
                 </div>
             </div>
-            <motion.div
-                animate={{
-                    y: [-6, 6],
-                }}
-                transition={{
-                    duration: 1,
-                    repeat: Infinity,
-                    repeatType: "reverse",
-                }} className="w-full flex justify-center align-middle mt-8">
-                <Image src={Arrow} alt='' height={40} width={40} />
-            </motion.div>
         </>
 
     )
