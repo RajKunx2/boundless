@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-import Main from "../assets/main.png"
+import Main from "../assets/main.png" 
 
 export default function HomePage() {
     return (
@@ -12,11 +12,9 @@ export default function HomePage() {
             <div className='flex flex-col md:mx-4 basis-1/3'>
                 <Image src={Main} alt='' height={500} width={500} />
             </div>
-            <div className='flex flex-col md:mx-4 basis-1/3 md:text-2xl font-QuickSand text-xl mx-8 my-6 md:my-0 text-orange-500 text-start'>Menstruation is not a
-                curse or a sin. It&apos;s a normal
-                bodily function that
-                deserves to be treated
-                with respect and dignity</div>
+            <div className='flex flex-col md:mx-4 basis-1/3 md:text-4xl font-QuickSand text-2xl mx-8 my-6 md:my-0 text-orange-500 text-start'>Mensuration isn&apos;t a choice, So why aren&apos;t the Pads Free<div>
+            </div>
+            </div>
         </div>
     )
 }
