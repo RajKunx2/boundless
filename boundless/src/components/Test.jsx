@@ -18,7 +18,7 @@ export default function Test() {
                                 Entrepreneur
                             </h6>
                             <p class="mb-4">
-                                Entrepreneur-The marketing agency&apos;s innovative use of sanitary napkin ad space was a game-changer for my business. Not only did it grab attention, but it also aligned with my values of making a positive impact
+                                The marketing agency&apos;s innovative use of sanitary napkin ad space was a game-changer for my business. Not only did it grab attention, but it also aligned with my values of making a positive impact
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="inline-block w-6">
                                     <path fill="currentColor"
                                         d="M580 556h160V396H580v160Zm-360 0h160V396H220v160Zm406 220 80-160H520V336h280v288l-76 152h-98Zm-360 0 80-160H160V336h280v288l-76 152h-98Zm34-300Zm360 0Z" />
