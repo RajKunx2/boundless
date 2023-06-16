@@ -12,7 +12,7 @@ export default function HomePage() {
             <div className='flex flex-col md:mx-4 basis-1/3'>
                 <Image src={Main} alt='' height={500} width={500} />
             </div>
-            <div className='flex flex-col md:mx-4 basis-1/3 md:text-4xl font-QuickSand text-2xl mx-8 my-6 md:my-0 text-orange-500 text-start'>Menstruation isn&apos;t a choice, So why aren&apos;t the Pads Free<div>
+            <div className='flex flex-col md:mx-4 basis-1/3 md:text-4xl font-QuickSand text-2xl mx-8 my-6 md:my-0 text-orange-500 text-start'>Menstruation isn&apos;t a choice, So why aren&apos;t Pads Free<div>
             </div>
             </div>
         </div>
