@@ -48,16 +48,16 @@ function NavBar() {
                                         Contact Us
                                     </a>
                                 </li>
-                                {/* <li className="ext-base text-black py-2 px-6 text-center  border-b-2 lg:border-b-0 font-semibold  hover:cursor-pointer hover:bg-[#FF7F00]  border-[#FF7F00]  lg:hover:text-[#FF7F00] lg:hover:bg-transparent mx-2">
-                                    <Link href="#whatwedo" onClick={() => setNavbar(!navbar)}>
-                                     asd
-                                    </Link>
+                                <li className="text-base text-black py-2 px-6 text-center  border-b-2 lg:border-b-0 font-semibold hover:cursor-pointer  hover:bg-[#FF7F00]  border-[#FF7F00]  lg:hover:text-[#FF7F00] lg:hover:bg-transparent mx-2">
+                                    <a href="https://forms.gle/YG4t3z8uWzrQhvjq8" onClick={() => setNavbar(!navbar)}>
+                                        Partner With Us
+                                    </a>
                                 </li>
                                 <li className="text-base text-black py-2 px-6 text-center  border-b-2 lg:border-b-0 font-semibold hover:cursor-pointer  hover:bg-[#FF7F00]  border-[#FF7F00]  lg:hover:text-[#FF7F00] lg:hover:bg-transparent mx-2">
-                                    <Link href="#blog" onClick={() => setNavbar(!navbar)}>
-                                        Blog
-                                    </Link>
-                                </li> */}
+                                    <a href="https://forms.gle/ksQSbSKsM517vLsb9" onClick={() => setNavbar(!navbar)}>
+                                        Volunteer With Us
+                                    </a>
+                                </li>
                                 <li className="text-base text-white  py-3 px-6 text-center bg-[#FF7F00] font-semibold hover:cursor-pointer lg:rounded-lg border-b-2 lg:border-b-0 lg:border-none hover:text-white  hover:bg-[#de7811] h-auto flex justify-center mx-2 align-middle ">
                                     <a href="https://hm-boundless.vercel.app" onClick={() => setNavbar(!navbar)}>
                                         Advertise
